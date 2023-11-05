@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>lab 5</title>
+</head>
+<body>
+    
+    <div class="formDiv">
+        <form name="main" id="myForm">
+            <p class="boldText">Форма для заповнення</p>
+            <input type="text" name="pib" id="pib" placeholder="ПІБ">
+            <input type="tel" name="phone" id="phone" placeholder="Телефон">
+            <input type="text" name="idCard" id="idCard" placeholder="ID-card">
+            <input type="text" name="dateOfBirth" id="dateOfBirth" placeholder="Дата народження">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <button type="submit" name="myButton" id="myButton">Підтвердити</button>
+        </form>
+        <div id="output">
+            <p class="boldText">Введені данні:</p>
+            <p class="smallboldText" class="content">ПІБ: <span id="pibdata" class="content"></span></p>
+            <p class="smallboldText" class="content">Телефон: <span id="phonedata" class="content"></span></p>
+            <p class="smallboldText" class="content">ID-card: <span id="idCarddata" class="content"></span></p>
+            <p class="smallboldText" class="content">Дата народження: <span id="dateOfBirthdata" class="content"></span></p>
+            <p class="smallboldText" class="content">Email: <span id="emaildata" class="content"></span></p>
+        </div>
+    </div>
+    <table id="myTable"></table>
+
+    <script src="script.js"></script>
+</body>
+</html>
